@@ -1,0 +1,369 @@
+<<<<<<< HEAD
+timestamp 1508839032
+=======
+timestamp 1508602588
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use via_M1_M2_1 NoName_166 1 0 -1024 0 1 0
+use via_M1_M2_1 NoName_175 1 0 -896 0 1 -400
+use via_M1_M2_1 NoName_167 1 0 -768 0 1 0
+use via_M1_M2_1 NoName_176 1 0 -640 0 1 -400
+use via_M1_M2_1 NoName_168 1 0 -512 0 1 0
+use via_M1_M2_1 NoName_177 1 0 -384 0 1 -400
+use via_M1_M2_1 NoName_169 1 0 -256 0 1 0
+use via_M1_M2_1 NoName_178 1 0 -128 0 1 -400
+use via_M1_M2_1 NoName_170 1 0 0 0 1 0
+use via_M1_M2_1 NoName_179 1 0 128 0 1 -400
+use via_M1_M2_1 NoName_171 1 0 256 0 1 0
+use via_M1_M2_1 NoName_172 1 0 512 0 1 0
+use via_M1_M2_1 NoName_180 1 0 384 0 1 -400
+use via_M1_M2_1 NoName_181 1 0 640 0 1 -400
+use via_M1_M2_1 NoName_173 1 0 768 0 1 0
+use via_M1_M2_1 NoName_182 1 0 896 0 1 -400
+use via_M1_M2_1 NoName_174 1 0 1024 0 1 0
+use via_M1_M2_1 NoName_183 1 0 -960 0 1 412
+use via_M1_M2_1 NoName_184 1 0 -832 0 1 412
+use via_M1_M2_1 NoName_185 1 0 -704 0 1 412
+use via_M1_M2_1 NoName_186 1 0 -576 0 1 412
+use via_M1_M2_1 NoName_187 1 0 -448 0 1 412
+use via_M1_M2_1 NoName_188 1 0 -320 0 1 412
+use via_M1_M2_1 NoName_189 1 0 -192 0 1 412
+use via_M1_M2_1 NoName_190 1 0 -64 0 1 412
+use via_M1_M2_1 NoName_191 1 0 64 0 1 412
+use via_M1_M2_1 NoName_192 1 0 192 0 1 412
+use via_M1_M2_1 NoName_193 1 0 320 0 1 412
+use via_M1_M2_1 NoName_194 1 0 448 0 1 412
+use via_M1_M2_1 NoName_195 1 0 576 0 1 412
+use via_M1_M2_1 NoName_196 1 0 704 0 1 412
+use via_M1_M2_1 NoName_197 1 0 832 0 1 412
+use via_M1_M2_1 NoName_198 1 0 960 0 1 412
+use XM6_origin XM6 1 0 0 0 1 0
+node "m2_n928_n432#" 4 780.083 -928 -432 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 118784 3840 0 0 0 0 0 0 0 0
+node "m2_n1056_n32#" 4 884.326 -1056 -32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135168 4352 0 0 0 0 0 0 0 0
+node "m2_n992_380#" 4 832.205 -992 380 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 126976 4096 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+<<<<<<< HEAD
+cap "m2_n928_n432#" "m2_n1056_n32#" 414.286
+cap "m2_n992_380#" "m2_n1056_n32#" 427.586
+cap "NoName_185/m1_n32_n32#" "NoName_176/m1_n32_n32#" 1.96731
+cap "m2_n992_380#" "NoName_191/m1_n32_n32#" 39.3375
+cap "NoName_179/m1_n32_n32#" "m2_n928_n432#" 50.2618
+cap "NoName_187/m1_n32_n32#" "NoName_188/m1_n32_n32#" 33.4099
+cap "NoName_192/m1_n32_n32#" "NoName_179/m1_n32_n32#" 1.96731
+cap "NoName_179/m1_n32_n32#" "NoName_193/m1_n32_n32#" 0.778611
+cap "XM6/a_n1155_n493#" "NoName_188/m1_n32_n32#" 4.95996
+cap "NoName_191/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "NoName_188/m1_n32_n32#" "NoName_177/m1_n32_n32#" 1.96731
+cap "NoName_189/m1_n32_n32#" "NoName_188/m1_n32_n32#" 33.4099
+cap "NoName_178/m1_n32_n32#" "NoName_191/m1_n32_n32#" 0.778611
+cap "NoName_190/m1_n32_n32#" "XM6/a_n1155_n493#" 4.03086
+cap "XM6/a_n1155_n493#" "NoName_166/m1_n32_n32#" 0.501953
+cap "NoName_186/m1_n32_n32#" "NoName_187/m1_n32_n32#" 33.4099
+cap "XM6/a_n1155_n493#" "NoName_183/m1_n32_n32#" 7.1905
+cap "NoName_184/m1_n32_n32#" "NoName_183/m1_n32_n32#" 33.4099
+cap "m2_n992_380#" "NoName_187/m1_n32_n32#" 39.3096
+cap "XM6/a_n1155_n493#" "NoName_186/m1_n32_n32#" 4.95996
+cap "m2_n992_380#" "NoName_184/m1_n32_n32#" 39.1844
+cap "m2_n992_380#" "XM6/a_n1155_n493#" 40.8442
+cap "NoName_186/m1_n32_n32#" "NoName_177/m1_n32_n32#" 0.778611
+cap "NoName_187/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "NoName_190/m1_n32_n32#" "NoName_189/m1_n32_n32#" 33.4099
+cap "m2_n992_380#" "NoName_177/m1_n32_n32#" 10.7897
+cap "NoName_175/m1_n32_n32#" "NoName_184/m1_n32_n32#" 1.96731
+cap "XM6/a_n1155_n493#" "NoName_175/m1_n32_n32#" 5.90694
+cap "NoName_184/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "XM6/a_n1155_n493#" "m2_n1056_n32#" 1.21763
+cap "m2_n992_380#" "NoName_189/m1_n32_n32#" 39.3514
+cap "NoName_177/m1_n32_n32#" "m2_n1056_n32#" 53.2031
+cap "NoName_168/m1_n32_n32#" "NoName_187/m1_n32_n32#" 1.0614
+cap "NoName_189/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "XM6/a_n1155_n493#" "NoName_178/m1_n32_n32#" 4.76191
+cap "NoName_168/m1_n32_n32#" "NoName_177/m1_n32_n32#" 5.3346
+cap "NoName_178/m1_n32_n32#" "NoName_177/m1_n32_n32#" 11.9531
+cap "NoName_185/m1_n32_n32#" "NoName_184/m1_n32_n32#" 33.4099
+cap "NoName_185/m1_n32_n32#" "XM6/a_n1155_n493#" 5.00294
+cap "NoName_190/m1_n32_n32#" "NoName_170/m1_n32_n32#" 1.0614
+cap "m2_n992_380#" "NoName_167/m1_n32_n32#" 10.8634
+cap "NoName_189/m1_n32_n32#" "NoName_178/m1_n32_n32#" 1.96731
+cap "NoName_175/m1_n32_n32#" "NoName_167/m1_n32_n32#" 5.3346
+cap "NoName_167/m1_n32_n32#" "m2_n1056_n32#" 56.6403
+cap "m2_n992_380#" "NoName_170/m1_n32_n32#" 10.3451
+cap "NoName_169/m1_n32_n32#" "NoName_188/m1_n32_n32#" 1.0614
+cap "NoName_187/m1_n32_n32#" "NoName_176/m1_n32_n32#" 0.778611
+cap "m2_n928_n432#" "NoName_188/m1_n32_n32#" 8.09553
+cap "NoName_184/m1_n32_n32#" "NoName_176/m1_n32_n32#" 0.778611
+cap "NoName_170/m1_n32_n32#" "m2_n1056_n32#" 56.6403
+cap "XM6/a_n1155_n493#" "NoName_176/m1_n32_n32#" 5.30843
+cap "NoName_176/m1_n32_n32#" "NoName_177/m1_n32_n32#" 11.9531
+cap "NoName_185/m1_n32_n32#" "NoName_167/m1_n32_n32#" 1.0614
+cap "NoName_178/m1_n32_n32#" "NoName_170/m1_n32_n32#" 5.3346
+cap "NoName_166/m1_n32_n32#" "m2_n928_n432#" 0.75304
+cap "NoName_190/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "m2_n992_380#" "NoName_169/m1_n32_n32#" 10.8634
+cap "NoName_183/m1_n32_n32#" "m2_n928_n432#" 1.07715
+cap "XM6/a_n1155_n493#" "NoName_191/m1_n32_n32#" 4.97964
+cap "NoName_186/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_167/m1_n32_n32#" "NoName_176/m1_n32_n32#" 5.3346
+cap "m2_n992_380#" "NoName_192/m1_n32_n32#" 29.7013
+cap "NoName_169/m1_n32_n32#" "m2_n1056_n32#" 56.6403
+cap "NoName_175/m1_n32_n32#" "m2_n928_n432#" 39.1001
+cap "NoName_192/m1_n32_n32#" "m2_n1056_n32#" 14.2733
+cap "NoName_190/m1_n32_n32#" "NoName_179/m1_n32_n32#" 0.778611
+cap "NoName_168/m1_n32_n32#" "m2_n928_n432#" 25.0952
+cap "NoName_178/m1_n32_n32#" "NoName_169/m1_n32_n32#" 5.3346
+cap "m2_n992_380#" "NoName_179/m1_n32_n32#" 10.7897
+cap "NoName_178/m1_n32_n32#" "m2_n928_n432#" 50.4845
+cap "NoName_185/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_179/m1_n32_n32#" "m2_n1056_n32#" 53.2031
+cap "XM6/a_n1155_n493#" "NoName_187/m1_n32_n32#" 4.95996
+cap "NoName_191/m1_n32_n32#" "NoName_170/m1_n32_n32#" 1.0614
+cap "XM6/a_n1155_n493#" "NoName_184/m1_n32_n32#" 4.99856
+cap "NoName_187/m1_n32_n32#" "NoName_177/m1_n32_n32#" 1.96731
+cap "NoName_179/m1_n32_n32#" "NoName_178/m1_n32_n32#" 11.9531
+cap "XM6/a_n1155_n493#" "NoName_177/m1_n32_n32#" 5.34272
+cap "m2_n928_n432#" "NoName_176/m1_n32_n32#" 50.5093
+cap "XM6/a_n1155_n493#" "NoName_189/m1_n32_n32#" 4.42827
+cap "NoName_171/m1_n32_n32#" "NoName_179/m1_n32_n32#" 2.6374
+cap "NoName_189/m1_n32_n32#" "NoName_177/m1_n32_n32#" 0.778611
+cap "NoName_184/m1_n32_n32#" "NoName_167/m1_n32_n32#" 1.0614
+cap "NoName_192/m1_n32_n32#" "NoName_191/m1_n32_n32#" 33.4099
+cap "NoName_191/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_179/m1_n32_n32#" "NoName_191/m1_n32_n32#" 1.96731
+cap "m2_n992_380#" "NoName_188/m1_n32_n32#" 39.1983
+cap "NoName_188/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "m2_n928_n432#" "NoName_187/m1_n32_n32#" 8.09553
+cap "XM6/a_n1155_n493#" "m2_n928_n432#" 31.8157
+cap "NoName_184/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_169/m1_n32_n32#" "NoName_177/m1_n32_n32#" 5.3346
+cap "NoName_192/m1_n32_n32#" "XM6/a_n1155_n493#" 5.46284
+cap "m2_n928_n432#" "NoName_177/m1_n32_n32#" 50.2865
+cap "NoName_183/m1_n32_n32#" "NoName_166/m1_n32_n32#" 1.0614
+cap "NoName_178/m1_n32_n32#" "NoName_188/m1_n32_n32#" 0.778611
+cap "NoName_189/m1_n32_n32#" "NoName_169/m1_n32_n32#" 1.0614
+cap "NoName_190/m1_n32_n32#" "m2_n992_380#" 39.24
+cap "NoName_189/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "m2_n992_380#" "NoName_183/m1_n32_n32#" 31.6853
+cap "NoName_175/m1_n32_n32#" "NoName_166/m1_n32_n32#" 5.3346
+cap "m2_n992_380#" "NoName_186/m1_n32_n32#" 39.2122
+cap "NoName_190/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "NoName_166/m1_n32_n32#" "m2_n1056_n32#" 76.7484
+cap "NoName_175/m1_n32_n32#" "NoName_183/m1_n32_n32#" 1.96731
+cap "XM6/a_n1155_n493#" "NoName_179/m1_n32_n32#" 4.76191
+cap "NoName_183/m1_n32_n32#" "m2_n1056_n32#" 29.1474
+cap "NoName_186/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "m2_n992_380#" "NoName_175/m1_n32_n32#" 10.7897
+cap "m2_n928_n432#" "NoName_167/m1_n32_n32#" 25.0952
+cap "NoName_190/m1_n32_n32#" "NoName_178/m1_n32_n32#" 1.96731
+cap "NoName_175/m1_n32_n32#" "m2_n1056_n32#" 53.2031
+cap "NoName_168/m1_n32_n32#" "NoName_186/m1_n32_n32#" 1.0614
+cap "NoName_179/m1_n32_n32#" "NoName_180/m1_n32_n32#" 5.97656
+cap "m2_n928_n432#" "NoName_170/m1_n32_n32#" 24.6744
+cap "m2_n992_380#" "NoName_168/m1_n32_n32#" 10.8634
+cap "m2_n992_380#" "NoName_178/m1_n32_n32#" 10.7897
+cap "NoName_168/m1_n32_n32#" "m2_n1056_n32#" 56.6403
+cap "m2_n992_380#" "NoName_185/m1_n32_n32#" 39.3235
+cap "NoName_185/m1_n32_n32#" "NoName_186/m1_n32_n32#" 33.4099
+cap "NoName_178/m1_n32_n32#" "m2_n1056_n32#" 53.2031
+cap "NoName_185/m1_n32_n32#" "NoName_175/m1_n32_n32#" 0.778611
+cap "NoName_185/m1_n32_n32#" "m2_n1056_n32#" 15.9818
+cap "NoName_179/m1_n32_n32#" "NoName_170/m1_n32_n32#" 5.3346
+cap "NoName_186/m1_n32_n32#" "NoName_176/m1_n32_n32#" 1.96731
+cap "m2_n992_380#" "NoName_176/m1_n32_n32#" 10.7897
+cap "NoName_175/m1_n32_n32#" "NoName_176/m1_n32_n32#" 11.9531
+cap "NoName_169/m1_n32_n32#" "m2_n928_n432#" 25.0952
+cap "NoName_192/m1_n32_n32#" "m2_n928_n432#" 7.05976
+cap "NoName_176/m1_n32_n32#" "m2_n1056_n32#" 53.2031
+cap "NoName_168/m1_n32_n32#" "NoName_176/m1_n32_n32#" 5.3346
+cap "NoName_190/m1_n32_n32#" "NoName_191/m1_n32_n32#" 33.4099
+cap "m2_n928_n432#" "NoName_172/m1_n32_n32#" 25.0952
+cap "NoName_172/m1_n32_n32#" "m2_n992_380#" 10.8634
+cap "NoName_171/m1_n32_n32#" "m2_n928_n432#" 25.0952
+cap "NoName_171/m1_n32_n32#" "m2_n992_380#" 10.8634
+cap "NoName_197/m1_n32_n32#" "NoName_182/m1_n32_n32#" 1.96731
+cap "XM6/a_n1155_n493#" "NoName_192/m1_n32_n32#" 0.311632
+cap "XM6/a_n1155_n493#" "NoName_174/m1_n32_n32#" 0.816233
+cap "NoName_195/m1_n32_n32#" "NoName_180/m1_n32_n32#" 0.778611
+cap "NoName_197/m1_n32_n32#" "XM6/a_n1155_n493#" 4.99856
+cap "NoName_192/m1_n32_n32#" "NoName_180/m1_n32_n32#" 0.778611
+cap "XM6/a_n1155_n493#" "NoName_180/m1_n32_n32#" 5.34272
+cap "m2_n1056_n32#" "NoName_198/m1_n32_n32#" 29.1474
+cap "NoName_198/m1_n32_n32#" "m2_n928_n432#" 1.07715
+cap "NoName_198/m1_n32_n32#" "m2_n992_380#" 31.6993
+cap "NoName_171/m1_n32_n32#" "NoName_179/m1_n32_n32#" 2.6972
+cap "m2_n1056_n32#" "NoName_173/m1_n32_n32#" 56.6403
+cap "NoName_181/m1_n32_n32#" "NoName_173/m1_n32_n32#" 5.3346
+cap "NoName_181/m1_n32_n32#" "NoName_182/m1_n32_n32#" 11.9531
+cap "NoName_181/m1_n32_n32#" "NoName_196/m1_n32_n32#" 1.96731
+cap "m2_n1056_n32#" "NoName_196/m1_n32_n32#" 15.9818
+cap "NoName_195/m1_n32_n32#" "NoName_194/m1_n32_n32#" 33.4099
+cap "XM6/a_n1155_n493#" "NoName_193/m1_n32_n32#" 4.95996
+cap "m2_n1056_n32#" "NoName_182/m1_n32_n32#" 53.2031
+cap "NoName_173/m1_n32_n32#" "m2_n992_380#" 10.8634
+cap "NoName_195/m1_n32_n32#" "NoName_181/m1_n32_n32#" 1.96731
+cap "m2_n1056_n32#" "NoName_195/m1_n32_n32#" 15.9818
+cap "NoName_192/m1_n32_n32#" "NoName_193/m1_n32_n32#" 33.4099
+cap "m2_n928_n432#" "NoName_173/m1_n32_n32#" 25.0952
+cap "NoName_196/m1_n32_n32#" "m2_n992_380#" 39.254
+cap "XM6/a_n1155_n493#" "NoName_194/m1_n32_n32#" 4.95996
+cap "m2_n1056_n32#" "XM6/a_n1155_n493#" 2.00826
+cap "m2_n928_n432#" "NoName_182/m1_n32_n32#" 39.2238
+cap "NoName_182/m1_n32_n32#" "m2_n992_380#" 10.7897
+cap "NoName_181/m1_n32_n32#" "XM6/a_n1155_n493#" 5.30843
+cap "NoName_196/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_195/m1_n32_n32#" "NoName_172/m1_n32_n32#" 1.0614
+cap "NoName_195/m1_n32_n32#" "m2_n992_380#" 39.3653
+cap "m2_n1056_n32#" "NoName_174/m1_n32_n32#" 76.7484
+cap "NoName_195/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_180/m1_n32_n32#" "NoName_193/m1_n32_n32#" 1.96731
+cap "m2_n1056_n32#" "NoName_192/m1_n32_n32#" 1.70847
+cap "NoName_181/m1_n32_n32#" "NoName_197/m1_n32_n32#" 0.778611
+cap "XM6/a_n1155_n493#" "m2_n992_380#" 25.585
+cap "NoName_171/m1_n32_n32#" "NoName_192/m1_n32_n32#" 1.0614
+cap "XM6/a_n1155_n493#" "m2_n928_n432#" 20.9531
+cap "m2_n928_n432#" "NoName_174/m1_n32_n32#" 0.75304
+cap "NoName_192/m1_n32_n32#" "m2_n928_n432#" 1.03577
+cap "m2_n1056_n32#" "NoName_197/m1_n32_n32#" 15.9818
+cap "NoName_180/m1_n32_n32#" "NoName_194/m1_n32_n32#" 1.96731
+cap "NoName_192/m1_n32_n32#" "m2_n992_380#" 9.52485
+cap "NoName_181/m1_n32_n32#" "NoName_180/m1_n32_n32#" 11.9531
+cap "m2_n1056_n32#" "NoName_180/m1_n32_n32#" 53.2031
+cap "NoName_180/m1_n32_n32#" "NoName_172/m1_n32_n32#" 5.3346
+cap "NoName_171/m1_n32_n32#" "NoName_180/m1_n32_n32#" 5.3346
+cap "NoName_197/m1_n32_n32#" "m2_n928_n432#" 8.09553
+cap "NoName_197/m1_n32_n32#" "m2_n992_380#" 39.3931
+cap "NoName_180/m1_n32_n32#" "m2_n992_380#" 10.7897
+cap "NoName_180/m1_n32_n32#" "m2_n928_n432#" 50.4598
+cap "NoName_198/m1_n32_n32#" "NoName_182/m1_n32_n32#" 1.96731
+cap "NoName_198/m1_n32_n32#" "NoName_174/m1_n32_n32#" 1.0614
+cap "XM6/a_n1155_n493#" "NoName_198/m1_n32_n32#" 6.04301
+cap "NoName_194/m1_n32_n32#" "NoName_193/m1_n32_n32#" 33.4099
+cap "NoName_173/m1_n32_n32#" "NoName_182/m1_n32_n32#" 5.3346
+cap "NoName_196/m1_n32_n32#" "NoName_173/m1_n32_n32#" 1.0614
+cap "m2_n1056_n32#" "NoName_193/m1_n32_n32#" 15.9818
+cap "NoName_197/m1_n32_n32#" "NoName_198/m1_n32_n32#" 33.4099
+cap "NoName_196/m1_n32_n32#" "NoName_182/m1_n32_n32#" 0.778611
+cap "NoName_181/m1_n32_n32#" "NoName_194/m1_n32_n32#" 0.778611
+cap "NoName_195/m1_n32_n32#" "NoName_196/m1_n32_n32#" 33.4099
+cap "m2_n1056_n32#" "NoName_194/m1_n32_n32#" 15.9818
+cap "NoName_171/m1_n32_n32#" "NoName_193/m1_n32_n32#" 1.0614
+cap "m2_n1056_n32#" "NoName_181/m1_n32_n32#" 53.2031
+cap "XM6/a_n1155_n493#" "NoName_173/m1_n32_n32#" 0.041879
+cap "m2_n928_n432#" "NoName_193/m1_n32_n32#" 8.09553
+cap "NoName_193/m1_n32_n32#" "m2_n992_380#" 39.3792
+cap "NoName_179/m1_n32_n32#" "NoName_180/m1_n32_n32#" 5.97656
+cap "NoName_181/m1_n32_n32#" "NoName_172/m1_n32_n32#" 5.3346
+cap "XM6/a_n1155_n493#" "NoName_182/m1_n32_n32#" 5.90694
+cap "XM6/a_n1155_n493#" "NoName_196/m1_n32_n32#" 5.00294
+cap "NoName_172/m1_n32_n32#" "NoName_194/m1_n32_n32#" 1.0614
+cap "NoName_174/m1_n32_n32#" "NoName_182/m1_n32_n32#" 5.3346
+cap "NoName_181/m1_n32_n32#" "m2_n992_380#" 10.7897
+cap "m2_n1056_n32#" "NoName_172/m1_n32_n32#" 56.6403
+cap "m2_n1056_n32#" "NoName_171/m1_n32_n32#" 56.6403
+cap "m2_n928_n432#" "NoName_194/m1_n32_n32#" 8.09553
+cap "NoName_197/m1_n32_n32#" "NoName_173/m1_n32_n32#" 1.0614
+cap "NoName_195/m1_n32_n32#" "XM6/a_n1155_n493#" 4.95996
+cap "NoName_194/m1_n32_n32#" "m2_n992_380#" 39.2679
+cap "NoName_181/m1_n32_n32#" "m2_n928_n432#" 50.237
+cap "NoName_197/m1_n32_n32#" "NoName_196/m1_n32_n32#" 33.4099
+=======
+cap "m2_n1056_n32#" "m2_n928_n432#" 414.286
+cap "m2_n992_380#" "m2_n1056_n32#" 427.586
+cap "NoName_166/m1_n32_n32#" "NoName_175/m1_n32_n32#" 513.639
+cap "XM6/a_n1155_n493#" "NoName_166/m1_n32_n32#" 2.84217e-14
+cap "NoName_166/m1_n32_n32#" "NoName_183/m1_n32_n32#" 459.25
+cap "NoName_175/m1_n32_n32#" "NoName_183/m1_n32_n32#" 354.149
+cap "XM6/a_n1155_n493#" "NoName_183/m1_n32_n32#" 2.13163e-13
+cap "NoName_170/m1_n32_n32#" "XM6/a_n1155_n493#" 2.84217e-14
+cap "NoName_190/m1_n32_n32#" "NoName_170/m1_n32_n32#" 307.771
+cap "NoName_178/m1_n32_n32#" "NoName_190/m1_n32_n32#" 212.666
+cap "NoName_190/m1_n32_n32#" "XM6/a_n1155_n493#" 5.68434e-14
+cap "NoName_178/m1_n32_n32#" "NoName_170/m1_n32_n32#" 314.739
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+merge "NoName_198/VSUBS" "NoName_197/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "NoName_197/VSUBS" "NoName_196/VSUBS"
+merge "NoName_196/VSUBS" "NoName_174/VSUBS"
+merge "NoName_174/VSUBS" "NoName_182/VSUBS"
+merge "NoName_182/VSUBS" "NoName_173/VSUBS"
+merge "NoName_173/VSUBS" "XM6/a_n1155_n493#"
+merge "XM6/a_n1155_n493#" "NoName_195/VSUBS"
+merge "NoName_195/VSUBS" "NoName_194/VSUBS"
+merge "NoName_194/VSUBS" "NoName_193/VSUBS"
+merge "NoName_193/VSUBS" "NoName_192/VSUBS"
+merge "NoName_192/VSUBS" "NoName_191/VSUBS"
+merge "NoName_191/VSUBS" "NoName_190/VSUBS"
+merge "NoName_190/VSUBS" "NoName_189/VSUBS"
+merge "NoName_189/VSUBS" "NoName_188/VSUBS"
+merge "NoName_188/VSUBS" "NoName_187/VSUBS"
+merge "NoName_187/VSUBS" "NoName_186/VSUBS"
+merge "NoName_186/VSUBS" "NoName_185/VSUBS"
+merge "NoName_185/VSUBS" "NoName_184/VSUBS"
+merge "NoName_184/VSUBS" "NoName_183/VSUBS"
+merge "NoName_183/VSUBS" "NoName_181/VSUBS"
+merge "NoName_181/VSUBS" "NoName_180/VSUBS"
+merge "NoName_180/VSUBS" "NoName_172/VSUBS"
+merge "NoName_172/VSUBS" "NoName_171/VSUBS"
+merge "NoName_171/VSUBS" "NoName_179/VSUBS"
+merge "NoName_179/VSUBS" "NoName_170/VSUBS"
+merge "NoName_170/VSUBS" "NoName_178/VSUBS"
+merge "NoName_178/VSUBS" "NoName_169/VSUBS"
+merge "NoName_169/VSUBS" "NoName_177/VSUBS"
+merge "NoName_177/VSUBS" "NoName_168/VSUBS"
+merge "NoName_168/VSUBS" "NoName_176/VSUBS"
+merge "NoName_176/VSUBS" "NoName_167/VSUBS"
+merge "NoName_167/VSUBS" "NoName_175/VSUBS"
+merge "NoName_175/VSUBS" "NoName_166/VSUBS"
+merge "NoName_166/VSUBS" "VSUBS"
+<<<<<<< HEAD
+merge "XM6/D" "NoName_174/m1_n32_n32#" -458.468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26496 -1980 0 0 0 0 0 0 0 0 0 0
+merge "NoName_174/m1_n32_n32#" "NoName_173/m1_n32_n32#"
+merge "NoName_173/m1_n32_n32#" "NoName_172/m1_n32_n32#"
+=======
+merge "NoName_174/m1_n32_n32#" "NoName_173/m1_n32_n32#" -1762.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26496 -1980 -36864 -2304 0 0 0 0 0 0 0 0
+merge "NoName_173/m1_n32_n32#" "XM6/D"
+merge "XM6/D" "NoName_172/m1_n32_n32#"
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+merge "NoName_172/m1_n32_n32#" "NoName_171/m1_n32_n32#"
+merge "NoName_171/m1_n32_n32#" "NoName_170/m1_n32_n32#"
+merge "NoName_170/m1_n32_n32#" "NoName_169/m1_n32_n32#"
+merge "NoName_169/m1_n32_n32#" "NoName_168/m1_n32_n32#"
+merge "NoName_168/m1_n32_n32#" "NoName_167/m1_n32_n32#"
+merge "NoName_167/m1_n32_n32#" "NoName_166/m1_n32_n32#"
+<<<<<<< HEAD
+merge "XM6/S" "NoName_182/m1_n32_n32#" -337.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4784 -944 0 0 0 0 0 0 0 0 0 0
+merge "NoName_182/m1_n32_n32#" "NoName_181/m1_n32_n32#"
+=======
+merge "NoName_166/m1_n32_n32#" "m2_n1056_n32#"
+merge "NoName_182/m1_n32_n32#" "XM6/S" -1047.11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4784 -944 -32768 -2048 0 0 0 0 0 0 0 0
+merge "XM6/S" "NoName_181/m1_n32_n32#"
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+merge "NoName_181/m1_n32_n32#" "NoName_180/m1_n32_n32#"
+merge "NoName_180/m1_n32_n32#" "NoName_179/m1_n32_n32#"
+merge "NoName_179/m1_n32_n32#" "NoName_178/m1_n32_n32#"
+merge "NoName_178/m1_n32_n32#" "NoName_177/m1_n32_n32#"
+merge "NoName_177/m1_n32_n32#" "NoName_176/m1_n32_n32#"
+merge "NoName_176/m1_n32_n32#" "NoName_175/m1_n32_n32#"
+<<<<<<< HEAD
+merge "XM6/G" "NoName_198/m1_n32_n32#" -797.352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16864 -2528 0 0 0 0 0 0 0 0 0 0
+merge "NoName_198/m1_n32_n32#" "NoName_197/m1_n32_n32#"
+=======
+merge "NoName_175/m1_n32_n32#" "m2_n928_n432#"
+merge "NoName_198/m1_n32_n32#" "NoName_197/m1_n32_n32#" -1434.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16864 -2528 -65536 -4096 0 0 0 0 0 0 0 0
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+merge "NoName_197/m1_n32_n32#" "NoName_196/m1_n32_n32#"
+merge "NoName_196/m1_n32_n32#" "NoName_195/m1_n32_n32#"
+merge "NoName_195/m1_n32_n32#" "NoName_194/m1_n32_n32#"
+merge "NoName_194/m1_n32_n32#" "NoName_193/m1_n32_n32#"
+merge "NoName_193/m1_n32_n32#" "NoName_192/m1_n32_n32#"
+merge "NoName_192/m1_n32_n32#" "NoName_191/m1_n32_n32#"
+merge "NoName_191/m1_n32_n32#" "NoName_190/m1_n32_n32#"
+merge "NoName_190/m1_n32_n32#" "NoName_189/m1_n32_n32#"
+merge "NoName_189/m1_n32_n32#" "NoName_188/m1_n32_n32#"
+merge "NoName_188/m1_n32_n32#" "NoName_187/m1_n32_n32#"
+merge "NoName_187/m1_n32_n32#" "NoName_186/m1_n32_n32#"
+merge "NoName_186/m1_n32_n32#" "NoName_185/m1_n32_n32#"
+merge "NoName_185/m1_n32_n32#" "NoName_184/m1_n32_n32#"
+merge "NoName_184/m1_n32_n32#" "NoName_183/m1_n32_n32#"

@@ -1,0 +1,145 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1680002671
+<< metal2 >>
+rect -992 380 992 444
+rect -1056 -32 1056 32
+rect -928 -432 928 -368
+use via_M1_M2_1  NoName_115
+timestamp 1680002671
+transform 1 0 -1024 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_116
+timestamp 1680002671
+transform 1 0 -768 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_117
+timestamp 1680002671
+transform 1 0 -512 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_118
+timestamp 1680002671
+transform 1 0 -256 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_119
+timestamp 1680002671
+transform 1 0 0 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_120
+timestamp 1680002671
+transform 1 0 256 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_121
+timestamp 1680002671
+transform 1 0 512 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_122
+timestamp 1680002671
+transform 1 0 768 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_123
+timestamp 1680002671
+transform 1 0 1024 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_124
+timestamp 1680002671
+transform 1 0 -896 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_125
+timestamp 1680002671
+transform 1 0 -640 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_126
+timestamp 1680002671
+transform 1 0 -384 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_127
+timestamp 1680002671
+transform 1 0 -128 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_128
+timestamp 1680002671
+transform 1 0 128 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_129
+timestamp 1680002671
+transform 1 0 384 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_130
+timestamp 1680002671
+transform 1 0 640 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_131
+timestamp 1680002671
+transform 1 0 896 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_132
+timestamp 1680002671
+transform 1 0 -960 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_133
+timestamp 1680002671
+transform 1 0 -832 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_134
+timestamp 1680002671
+transform 1 0 -704 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_135
+timestamp 1680002671
+transform 1 0 -576 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_136
+timestamp 1680002671
+transform 1 0 -448 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_137
+timestamp 1680002671
+transform 1 0 -320 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_138
+timestamp 1680002671
+transform 1 0 -192 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_139
+timestamp 1680002671
+transform 1 0 -64 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_140
+timestamp 1680002671
+transform 1 0 64 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_141
+timestamp 1680002671
+transform 1 0 192 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_142
+timestamp 1680002671
+transform 1 0 320 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_143
+timestamp 1680002671
+transform 1 0 448 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_144
+timestamp 1680002671
+transform 1 0 576 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_145
+timestamp 1680002671
+transform 1 0 704 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_146
+timestamp 1680002671
+transform 1 0 832 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_147
+timestamp 1680002671
+transform 1 0 960 0 1 412
+box -32 -32 32 32
+use XM3_origin  XM3
+timestamp 1680002671
+transform 1 0 0 0 1 0
+box -1181 -519 1181 519
+<< end >>
