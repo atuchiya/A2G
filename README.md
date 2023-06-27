@@ -93,4 +93,4 @@ Resolution（変数名:bit）をパラメータとした．
 
 License
 =
-A2G is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.txt) file for details.
+A2G is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) file for details.
