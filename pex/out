@@ -1,0 +1,642 @@
+GDS
+/home/oe23ranan/A2G/GPT/gds/hyscomp.gds
+SPICE
+/home/oe23ranan/A2G/GPT/file/hyscomp.spice
+LVS
+/home/oe23ranan/A2G/GPT/lvs/hyscomp.spice
+PEX
+/home/oe23ranan/A2G/GPT/pex/hyscomp.spice
+
+!!Running extraction for DRC!!
+
+Magic 8.3 revision 383 - Compiled on Wed Mar 22 10:24:39 JST 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    mvobsactive ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+/tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A
+/tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A
+Loading "run_drc.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "XR1_origin".
+Reading "XR2_origin".
+Reading "XM3_origin".
+Reading "XM5_origin".
+Reading "XM1_origin".
+Reading "XM2_origin".
+Reading "XM6_origin".
+Reading "XM4_origin".
+Reading "via_M1_M2_1".
+Reading "XR1".
+Reading "XR2".
+Reading "via_M1_M2_1_~".
+Reading "XXXXX101".
+Reading "XXXXX100".
+Reading "XXXXX99".
+Reading "XXXXX98".
+Reading "XXXXX97".
+Reading "XXXXX96".
+Reading "XXXXX95".
+Reading "XXXXX94".
+Reading "via_M1_M2_1_i".
+Reading "via_M1_M2_1_k".
+Reading "via_M1_M2_1_m".
+Reading "XXXXX90".
+Reading "XXXXX89".
+Reading "XXXXX88".
+Reading "via_M1_M2_1_f".
+Reading "via_M1_M2_1_d".
+Reading "via_M1_M2_1_b".
+Reading "XXXXX84".
+Reading "XM3".
+Reading "XXXXX81".
+Reading "XXXXX80".
+Reading "XXXXX79".
+Reading "XXXXX78".
+Reading "XXXXX77".
+Reading "XXXXX76".
+Reading "via_M1_M2_1_}".
+Reading "XXXXX74".
+Reading "via_M1_M2_1_v".
+Reading "via_M1_M2_1_w".
+Reading "via_M1_M2_1_y".
+Reading "via_M1_M2_1_{".
+Reading "via_M1_M2_1_o".
+Reading "via_M1_M2_1_p".
+Reading "via_M1_M2_1_r".
+Reading "via_M1_M2_1_t".
+Reading "XXXXX65".
+Reading "XXXXX64".
+Reading "XXXXX63".
+Reading "XXXXX62".
+Reading "XXXXX61".
+Reading "XXXXX60".
+Reading "XXXXX59".
+Reading "XXXXX58".
+Reading "XM5".
+Reading "XXXXX55".
+Reading "XXXXX54".
+Reading "XXXXX53".
+Reading "XXXXX52".
+Reading "via_M1_M2_1_h".
+Reading "via_M1_M2_1_j".
+Reading "via_M1_M2_1_l".
+Reading "via_M1_M2_1_n".
+Reading "XXXXX47".
+Reading "XXXXX46".
+Reading "XXXXX45".
+Reading "XXXXX44".
+Reading "XXXXX43".
+Reading "XXXXX42".
+Reading "XXXXX41".
+Reading "XXXXX40".
+Reading "via_M3_M4_0".
+Reading "XM1".
+Reading "via_M1_M2_1_a".
+Reading "via_M1_M2_1_c".
+Reading "via_M1_M2_1_e".
+Reading "via_M1_M2_1_g".
+Reading "XXXXX32".
+Reading "XXXXX31".
+Reading "XXXXX30".
+Reading "XXXXX29".
+Reading "XXXXX28".
+Reading "XM2".
+Reading "via_M1_M2_1_q".
+Reading "via_M1_M2_1_s".
+Reading "via_M1_M2_1_u".
+Reading "via_M1_M2_1_x".
+Reading "via_M1_M2_1_z".
+Reading "via_M1_M2_1_|".
+Reading "XXXXX19".
+Reading "XXXXX18".
+Reading "XXXXX17".
+Reading "XXXXX16".
+Reading "XXXXX15".
+Reading "XXXXX14".
+Reading "XM6".
+Reading "XXXXX11".
+Reading "XXXXX10".
+Reading "XXXXX9".
+Reading "via_M2_M3_0".
+Reading "XM4".
+Reading "XXXXX4".
+Reading "XXXXX3".
+Reading "XXXXX2".
+Reading "hyscomp".
+
+DRC START
+Loading DRC CIF style.
+Total DRC errors found: 0
+There are no errors in hyscomp.
+DRC FINISH!!
+Found no DRC errors, as expected :-)
+!!Running extraction for LVS and PEX!!
+
+Magic 8.3 revision 383 - Compiled on Wed Mar 22 10:24:39 JST 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    mvobsactive ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+/tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A
+/tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A
+Loading "run_ext.tcl" from command line.
+
+LOADING GDS
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "XR1_origin".
+Reading "XR2_origin".
+Reading "XM3_origin".
+Reading "XM5_origin".
+Reading "XM1_origin".
+Reading "XM2_origin".
+Reading "XM6_origin".
+Reading "XM4_origin".
+Reading "via_M1_M2_1".
+Reading "XR1".
+Reading "XR2".
+Reading "via_M1_M2_1_~".
+Reading "XXXXX101".
+Reading "XXXXX100".
+Reading "XXXXX99".
+Reading "XXXXX98".
+Reading "XXXXX97".
+Reading "XXXXX96".
+Reading "XXXXX95".
+Reading "XXXXX94".
+Reading "via_M1_M2_1_i".
+Reading "via_M1_M2_1_k".
+Reading "via_M1_M2_1_m".
+Reading "XXXXX90".
+Reading "XXXXX89".
+Reading "XXXXX88".
+Reading "via_M1_M2_1_f".
+Reading "via_M1_M2_1_d".
+Reading "via_M1_M2_1_b".
+Reading "XXXXX84".
+Reading "XM3".
+Reading "XXXXX81".
+Reading "XXXXX80".
+Reading "XXXXX79".
+Reading "XXXXX78".
+Reading "XXXXX77".
+Reading "XXXXX76".
+Reading "via_M1_M2_1_}".
+Reading "XXXXX74".
+Reading "via_M1_M2_1_v".
+Reading "via_M1_M2_1_w".
+Reading "via_M1_M2_1_y".
+Reading "via_M1_M2_1_{".
+Reading "via_M1_M2_1_o".
+Reading "via_M1_M2_1_p".
+Reading "via_M1_M2_1_r".
+Reading "via_M1_M2_1_t".
+Reading "XXXXX65".
+Reading "XXXXX64".
+Reading "XXXXX63".
+Reading "XXXXX62".
+Reading "XXXXX61".
+Reading "XXXXX60".
+Reading "XXXXX59".
+Reading "XXXXX58".
+Reading "XM5".
+Reading "XXXXX55".
+Reading "XXXXX54".
+Reading "XXXXX53".
+Reading "XXXXX52".
+Reading "via_M1_M2_1_h".
+Reading "via_M1_M2_1_j".
+Reading "via_M1_M2_1_l".
+Reading "via_M1_M2_1_n".
+Reading "XXXXX47".
+Reading "XXXXX46".
+Reading "XXXXX45".
+Reading "XXXXX44".
+Reading "XXXXX43".
+Reading "XXXXX42".
+Reading "XXXXX41".
+Reading "XXXXX40".
+Reading "via_M3_M4_0".
+Reading "XM1".
+Reading "via_M1_M2_1_a".
+Reading "via_M1_M2_1_c".
+Reading "via_M1_M2_1_e".
+Reading "via_M1_M2_1_g".
+Reading "XXXXX32".
+Reading "XXXXX31".
+Reading "XXXXX30".
+Reading "XXXXX29".
+Reading "XXXXX28".
+Reading "XM2".
+Reading "via_M1_M2_1_q".
+Reading "via_M1_M2_1_s".
+Reading "via_M1_M2_1_u".
+Reading "via_M1_M2_1_x".
+Reading "via_M1_M2_1_z".
+Reading "via_M1_M2_1_|".
+Reading "XXXXX19".
+Reading "XXXXX18".
+Reading "XXXXX17".
+Reading "XXXXX16".
+Reading "XXXXX15".
+Reading "XXXXX14".
+Reading "XM6".
+Reading "XXXXX11".
+Reading "XXXXX10".
+Reading "XXXXX9".
+Reading "via_M2_M3_0".
+Reading "XM4".
+Reading "XXXXX4".
+Reading "XXXXX3".
+Reading "XXXXX2".
+Reading "hyscomp".
+
+LVS START
+Extracting XXXXX17 into XXXXX17.ext:
+Extracting XM2_origin into XM2_origin.ext:
+XM2_origin: 33 warnings
+Extracting via_M1_M2_1 into via_M1_M2_1.ext:
+Extracting XM2 into XM2.ext:
+Extracting via_M1_M2_1_q into via_M1_M2_1_q.ext:
+Extracting via_M2_M3_0 into via_M2_M3_0.ext:
+Extracting via_M1_M2_1_v into via_M1_M2_1_v.ext:
+Extracting via_M1_M2_1_w into via_M1_M2_1_w.ext:
+Extracting via_M1_M2_1_y into via_M1_M2_1_y.ext:
+Extracting via_M1_M2_1_{ into via_M1_M2_1_{.ext:
+Extracting via_M1_M2_1_o into via_M1_M2_1_o.ext:
+Extracting via_M1_M2_1_p into via_M1_M2_1_p.ext:
+Extracting via_M1_M2_1_r into via_M1_M2_1_r.ext:
+Extracting via_M1_M2_1_t into via_M1_M2_1_t.ext:
+Extracting via_M3_M4_0 into via_M3_M4_0.ext:
+Extracting via_M1_M2_1_s into via_M1_M2_1_s.ext:
+Extracting via_M1_M2_1_u into via_M1_M2_1_u.ext:
+Extracting via_M1_M2_1_x into via_M1_M2_1_x.ext:
+Extracting via_M1_M2_1_z into via_M1_M2_1_z.ext:
+Extracting via_M1_M2_1_| into via_M1_M2_1_|.ext:
+Extracting XXXXX61 into XXXXX61.ext:
+Extracting XXXXX60 into XXXXX60.ext:
+Extracting XXXXX59 into XXXXX59.ext:
+Extracting XXXXX58 into XXXXX58.ext:
+Extracting XXXXX19 into XXXXX19.ext:
+Extracting XXXXX18 into XXXXX18.ext:
+Extracting XXXXX10 into XXXXX10.ext:
+Extracting XXXXX9 into XXXXX9.ext:
+Extracting XM4_origin into XM4_origin.ext:
+XM4_origin: 33 warnings
+Extracting XM4 into XM4.ext:
+Extracting XXXXX4 into XXXXX4.ext:
+Extracting XXXXX3 into XXXXX3.ext:
+Extracting XXXXX31 into XXXXX31.ext:
+Extracting XXXXX30 into XXXXX30.ext:
+Extracting XXXXX29 into XXXXX29.ext:
+Extracting XXXXX28 into XXXXX28.ext:
+Extracting XXXXX16 into XXXXX16.ext:
+Extracting XXXXX15 into XXXXX15.ext:
+Extracting XXXXX14 into XXXXX14.ext:
+Extracting XXXXX2 into XXXXX2.ext:
+Extracting XXXXX11 into XXXXX11.ext:
+Extracting XXXXX47 into XXXXX47.ext:
+Extracting XXXXX46 into XXXXX46.ext:
+Extracting XXXXX45 into XXXXX45.ext:
+Extracting XXXXX44 into XXXXX44.ext:
+Extracting XXXXX43 into XXXXX43.ext:
+Extracting XXXXX42 into XXXXX42.ext:
+Extracting XXXXX41 into XXXXX41.ext:
+Extracting XXXXX40 into XXXXX40.ext:
+Extracting via_M1_M2_1_h into via_M1_M2_1_h.ext:
+Extracting via_M1_M2_1_j into via_M1_M2_1_j.ext:
+Extracting via_M1_M2_1_l into via_M1_M2_1_l.ext:
+Extracting via_M1_M2_1_n into via_M1_M2_1_n.ext:
+Extracting XM1_origin into XM1_origin.ext:
+XM1_origin: 33 warnings
+Extracting XM1 into XM1.ext:
+Extracting via_M1_M2_1_a into via_M1_M2_1_a.ext:
+Extracting via_M1_M2_1_c into via_M1_M2_1_c.ext:
+Extracting via_M1_M2_1_e into via_M1_M2_1_e.ext:
+Extracting via_M1_M2_1_g into via_M1_M2_1_g.ext:
+Extracting via_M1_M2_1_i into via_M1_M2_1_i.ext:
+Extracting via_M1_M2_1_k into via_M1_M2_1_k.ext:
+Extracting via_M1_M2_1_m into via_M1_M2_1_m.ext:
+Extracting XXXXX90 into XXXXX90.ext:
+Extracting XXXXX89 into XXXXX89.ext:
+Extracting XXXXX88 into XXXXX88.ext:
+Extracting via_M1_M2_1_f into via_M1_M2_1_f.ext:
+Extracting via_M1_M2_1_d into via_M1_M2_1_d.ext:
+Extracting via_M1_M2_1_b into via_M1_M2_1_b.ext:
+Extracting XXXXX32 into XXXXX32.ext:
+Extracting XXXXX55 into XXXXX55.ext:
+Extracting XXXXX54 into XXXXX54.ext:
+Extracting XXXXX53 into XXXXX53.ext:
+Extracting XXXXX52 into XXXXX52.ext:
+Extracting XXXXX63 into XXXXX63.ext:
+Extracting XXXXX62 into XXXXX62.ext:
+Extracting via_M1_M2_1_~ into via_M1_M2_1_~.ext:
+Extracting XXXXX101 into XXXXX101.ext:
+Extracting XXXXX100 into XXXXX100.ext:
+Extracting XXXXX99 into XXXXX99.ext:
+Extracting XXXXX98 into XXXXX98.ext:
+Extracting XXXXX97 into XXXXX97.ext:
+Extracting XXXXX96 into XXXXX96.ext:
+Extracting XXXXX95 into XXXXX95.ext:
+Extracting XXXXX94 into XXXXX94.ext:
+Extracting XXXXX84 into XXXXX84.ext:
+Extracting XM3_origin into XM3_origin.ext:
+XM3_origin: 33 warnings
+Extracting XM3 into XM3.ext:
+Extracting XXXXX81 into XXXXX81.ext:
+Extracting XXXXX80 into XXXXX80.ext:
+Extracting XXXXX79 into XXXXX79.ext:
+Extracting XXXXX78 into XXXXX78.ext:
+Extracting XXXXX77 into XXXXX77.ext:
+Extracting XXXXX76 into XXXXX76.ext:
+Extracting via_M1_M2_1_} into via_M1_M2_1_}.ext:
+Extracting XXXXX74 into XXXXX74.ext:
+Extracting XXXXX65 into XXXXX65.ext:
+Extracting XXXXX64 into XXXXX64.ext:
+Extracting XR1_origin into XR1_origin.ext:
+Extracting XR1 into XR1.ext:
+Extracting XR2_origin into XR2_origin.ext:
+Extracting XR2 into XR2.ext:
+Extracting XM5_origin into XM5_origin.ext:
+XM5_origin: 33 warnings
+Extracting XM5 into XM5.ext:
+Extracting XM6_origin into XM6_origin.ext:
+XM6_origin: 33 warnings
+Extracting XM6 into XM6.ext:
+Extracting hyscomp into hyscomp.ext:
+hyscomp: 2 warnings
+tolerance [value]    set ratio between resistor and device tol.
+all 		       extract all the nets
+simplify [on/off]    turn on/off simplification of resistor nets
+extout   [on/off]    turn on/off writing of .res.ext file
+lumped   [on/off]    turn on/off writing of updated lumped resistances
+silent   [on/off]    turn on/off printing of net statistics
+skip     mask        don't extract these types
+ignore	  names	      don't extract these nets
+include  names	      extract only these nets
+box      type        extract the signal under the box on layer type
+cell	   cellname    extract the network for the cell named cellname
+blackbox [on/off]    treat subcircuits with ports as black boxes
+fasthenry [freq]      extract subcircuit network geometry into .fh file
+geometry	      extract network centerline geometry (experimental)
+help                 print this message
+exttospice finished.
+/home/oe23ranan/A2G/GPT/lvs/hyscomp.spice
+LVS FINISH!!
+
+PEX START
+Extracting XXXXX2 into XXXXX2.ext:
+Extracting XXXXX28 into XXXXX28.ext:
+Extracting XXXXX29 into XXXXX29.ext:
+Extracting via_M2_M3_0 into via_M2_M3_0.ext:
+Extracting XXXXX3 into XXXXX3.ext:
+Extracting XXXXX4 into XXXXX4.ext:
+Extracting XXXXX30 into XXXXX30.ext:
+Extracting XXXXX31 into XXXXX31.ext:
+Extracting via_M1_M2_1 into via_M1_M2_1.ext:
+Extracting XM4_origin into XM4_origin.ext:
+XM4_origin: 33 warnings
+Extracting XM4 into XM4.ext:
+Extracting via_M1_M2_1_g into via_M1_M2_1_g.ext:
+Extracting via_M1_M2_1_e into via_M1_M2_1_e.ext:
+Extracting XXXXX32 into XXXXX32.ext:
+Extracting via_M1_M2_1_b into via_M1_M2_1_b.ext:
+Extracting via_M1_M2_1_d into via_M1_M2_1_d.ext:
+Extracting via_M1_M2_1_f into via_M1_M2_1_f.ext:
+Extracting via_M1_M2_1_c into via_M1_M2_1_c.ext:
+Extracting via_M1_M2_1_a into via_M1_M2_1_a.ext:
+Extracting XM1_origin into XM1_origin.ext:
+XM1_origin: 33 warnings
+Extracting XM1 into XM1.ext:
+Extracting XR1_origin into XR1_origin.ext:
+Extracting XR1 into XR1.ext:
+Extracting XXXXX16 into XXXXX16.ext:
+Extracting XXXXX15 into XXXXX15.ext:
+Extracting XXXXX14 into XXXXX14.ext:
+Extracting XXXXX43 into XXXXX43.ext:
+Extracting XXXXX10 into XXXXX10.ext:
+Extracting XXXXX9 into XXXXX9.ext:
+Extracting XXXXX11 into XXXXX11.ext:
+Extracting XXXXX44 into XXXXX44.ext:
+Extracting XXXXX40 into XXXXX40.ext:
+Extracting XXXXX41 into XXXXX41.ext:
+Extracting XXXXX42 into XXXXX42.ext:
+Extracting XXXXX45 into XXXXX45.ext:
+Extracting XXXXX46 into XXXXX46.ext:
+Extracting XXXXX47 into XXXXX47.ext:
+Extracting via_M3_M4_0 into via_M3_M4_0.ext:
+Extracting XM6_origin into XM6_origin.ext:
+XM6_origin: 33 warnings
+Extracting XM6 into XM6.ext:
+Extracting via_M1_M2_1_l into via_M1_M2_1_l.ext:
+Extracting via_M1_M2_1_n into via_M1_M2_1_n.ext:
+Extracting XXXXX55 into XXXXX55.ext:
+Extracting XXXXX54 into XXXXX54.ext:
+Extracting XM5_origin into XM5_origin.ext:
+XM5_origin: 33 warnings
+Extracting XM5 into XM5.ext:
+Extracting via_M1_M2_1_k into via_M1_M2_1_k.ext:
+Extracting via_M1_M2_1_i into via_M1_M2_1_i.ext:
+Extracting via_M1_M2_1_j into via_M1_M2_1_j.ext:
+Extracting via_M1_M2_1_h into via_M1_M2_1_h.ext:
+Extracting XXXXX52 into XXXXX52.ext:
+Extracting XXXXX53 into XXXXX53.ext:
+Extracting XXXXX89 into XXXXX89.ext:
+Extracting XXXXX90 into XXXXX90.ext:
+Extracting via_M1_M2_1_m into via_M1_M2_1_m.ext:
+Extracting XXXXX88 into XXXXX88.ext:
+Extracting XXXXX17 into XXXXX17.ext:
+Extracting XXXXX58 into XXXXX58.ext:
+Extracting XXXXX19 into XXXXX19.ext:
+Extracting XXXXX18 into XXXXX18.ext:
+Extracting via_M1_M2_1_q into via_M1_M2_1_q.ext:
+Extracting via_M1_M2_1_o into via_M1_M2_1_o.ext:
+Extracting via_M1_M2_1_s into via_M1_M2_1_s.ext:
+Extracting via_M1_M2_1_u into via_M1_M2_1_u.ext:
+Extracting XXXXX59 into XXXXX59.ext:
+Extracting XXXXX60 into XXXXX60.ext:
+Extracting XXXXX61 into XXXXX61.ext:
+Extracting via_M1_M2_1_t into via_M1_M2_1_t.ext:
+Extracting via_M1_M2_1_r into via_M1_M2_1_r.ext:
+Extracting via_M1_M2_1_p into via_M1_M2_1_p.ext:
+Extracting XM2_origin into XM2_origin.ext:
+XM2_origin: 33 warnings
+Extracting XM2 into XM2.ext:
+Extracting XM3_origin into XM3_origin.ext:
+XM3_origin: 33 warnings
+Extracting XM3 into XM3.ext:
+Extracting XXXXX77 into XXXXX77.ext:
+Extracting XXXXX76 into XXXXX76.ext:
+Extracting XXXXX65 into XXXXX65.ext:
+Extracting XXXXX64 into XXXXX64.ext:
+Extracting XXXXX95 into XXXXX95.ext:
+Extracting XXXXX96 into XXXXX96.ext:
+Extracting XXXXX62 into XXXXX62.ext:
+Extracting XXXXX63 into XXXXX63.ext:
+Extracting XXXXX74 into XXXXX74.ext:
+Extracting via_M1_M2_1_} into via_M1_M2_1_}.ext:
+Extracting XXXXX101 into XXXXX101.ext:
+Extracting via_M1_M2_1_~ into via_M1_M2_1_~.ext:
+Extracting XXXXX94 into XXXXX94.ext:
+Extracting XXXXX100 into XXXXX100.ext:
+Extracting via_M1_M2_1_| into via_M1_M2_1_|.ext:
+Extracting via_M1_M2_1_z into via_M1_M2_1_z.ext:
+Extracting via_M1_M2_1_x into via_M1_M2_1_x.ext:
+Extracting via_M1_M2_1_v into via_M1_M2_1_v.ext:
+Extracting via_M1_M2_1_y into via_M1_M2_1_y.ext:
+Extracting via_M1_M2_1_w into via_M1_M2_1_w.ext:
+Extracting via_M1_M2_1_{ into via_M1_M2_1_{.ext:
+Extracting XXXXX80 into XXXXX80.ext:
+Extracting XXXXX81 into XXXXX81.ext:
+Extracting XXXXX79 into XXXXX79.ext:
+Extracting XXXXX78 into XXXXX78.ext:
+Extracting XXXXX99 into XXXXX99.ext:
+Extracting XXXXX98 into XXXXX98.ext:
+Extracting XXXXX97 into XXXXX97.ext:
+Extracting XXXXX84 into XXXXX84.ext:
+Extracting XR2_origin into XR2_origin.ext:
+Extracting XR2 into XR2.ext:
+Extracting hyscomp into hyscomp.ext:
+hyscomp: 2 warnings
+tolerance [value]    set ratio between resistor and device tol.
+all 		       extract all the nets
+simplify [on/off]    turn on/off simplification of resistor nets
+extout   [on/off]    turn on/off writing of .res.ext file
+lumped   [on/off]    turn on/off writing of updated lumped resistances
+silent   [on/off]    turn on/off printing of net statistics
+skip     mask        don't extract these types
+ignore	  names	      don't extract these nets
+include  names	      extract only these nets
+box      type        extract the signal under the box on layer type
+cell	   cellname    extract the network for the cell named cellname
+blackbox [on/off]    treat subcircuits with ports as black boxes
+fasthenry [freq]      extract subcircuit network geometry into .fh file
+geometry	      extract network centerline geometry (experimental)
+help                 print this message
+exttospice finished.
+PEX FINISH!!
+
+Netgen 1.5.250 compiled on Tue Mar 28 15:00:04 JST 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/oe23ranan/A2G/GPT/lvs/hyscomp.spice
+Call to undefined subcircuit sky130_fd_pr__res_generic_nd
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading netlist file /home/oe23ranan/A2G/GPT/file/hyscomp.spice
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__res_generic_nd
+Creating placeholder cell definition.
+
+Reading setup file /tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_generic_nd pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_nd
+No property mult found for device sky130_fd_pr__res_generic_nd
+Model sky130_fd_pr__res_generic_nd pin 1 == 2
+No property value found for device sky130_fd_pr__res_generic_nd
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_01v8_lvt
+No property ad found for device sky130_fd_pr__nfet_01v8_lvt
+No property ps found for device sky130_fd_pr__nfet_01v8_lvt
+No property pd found for device sky130_fd_pr__nfet_01v8_lvt
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_01v8_lvt
+No property ad found for device sky130_fd_pr__nfet_01v8_lvt
+No property ps found for device sky130_fd_pr__nfet_01v8_lvt
+No property pd found for device sky130_fd_pr__nfet_01v8_lvt
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Comparison output logged to file comp.out
+Logging to file "comp.out" enabled
+Circuit sky130_fd_pr__res_generic_nd contains no devices.
+Circuit sky130_fd_pr__nfet_01v8_lvt contains no devices.
+
+Contents of circuit 1:  Circuit: 'hyscomp'
+Circuit hyscomp contains 98 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  96
+  Class: sky130_fd_pr__res_generic_nd instances:   2
+Circuit contains 8 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'hyscomp'
+Circuit hyscomp contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   6
+  Class: sky130_fd_pr__res_generic_nd instances:   2
+Circuit contains 10 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'hyscomp'
+Circuit hyscomp contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   6
+  Class: sky130_fd_pr__res_generic_nd instances:   2
+Circuit contains 8 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'hyscomp'
+Circuit hyscomp contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   6
+  Class: sky130_fd_pr__res_generic_nd instances:   2
+Circuit contains 10 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 10 nets. *** MISMATCH ***
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "comp.out" disabled
+LVS Done.
+Found no LVS errors, as expected :-)

@@ -1,0 +1,231 @@
+
+Magic 8.3 revision 315 - Compiled on Mon Jul 18 16:35:37 JST 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    mvobsactive ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+/tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A
+/tmp/caravel_tutorial/pdk/volare/sky130/versions/7519dfb04400f224f140749cda44ee7de6f5e095/sky130A
+Loading "run_drc.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+<<<<<<< HEAD
+Reading "XR1_origin".
+Reading "XR2_origin".
+Reading "XM3_origin".
+Reading "XM5_origin".
+Reading "XM1_origin".
+Reading "XM2_origin".
+Reading "XM6_origin".
+Reading "XM4_origin".
+Reading "via_M1_M2_1".
+Reading "XR1".
+Reading "XR2".
+Reading "via_M1_M2_1_~".
+Reading "XXXXX101".
+Reading "XXXXX100".
+Reading "XXXXX99".
+Reading "XXXXX98".
+Reading "XXXXX97".
+Reading "XXXXX96".
+Reading "XXXXX95".
+Reading "XXXXX94".
+Reading "via_M1_M2_1_i".
+Reading "via_M1_M2_1_k".
+Reading "via_M1_M2_1_m".
+Reading "XXXXX90".
+Reading "XXXXX89".
+Reading "XXXXX88".
+Reading "via_M1_M2_1_f".
+Reading "via_M1_M2_1_d".
+Reading "via_M1_M2_1_b".
+Reading "XXXXX84".
+Reading "XM3".
+Reading "XXXXX81".
+Reading "XXXXX80".
+Reading "XXXXX79".
+Reading "XXXXX78".
+Reading "XXXXX77".
+Reading "XXXXX76".
+Reading "via_M1_M2_1_}".
+Reading "XXXXX74".
+Reading "via_M1_M2_1_v".
+Reading "via_M1_M2_1_w".
+Reading "via_M1_M2_1_y".
+Reading "via_M1_M2_1_{".
+Reading "via_M1_M2_1_o".
+Reading "via_M1_M2_1_p".
+Reading "via_M1_M2_1_r".
+Reading "via_M1_M2_1_t".
+Reading "XXXXX65".
+Reading "XXXXX64".
+Reading "XXXXX63".
+Reading "XXXXX62".
+Reading "XXXXX61".
+Reading "XXXXX60".
+Reading "XXXXX59".
+Reading "XXXXX58".
+Reading "XM5".
+Reading "XXXXX55".
+Reading "XXXXX54".
+Reading "XXXXX53".
+Reading "XXXXX52".
+Reading "via_M1_M2_1_h".
+Reading "via_M1_M2_1_j".
+Reading "via_M1_M2_1_l".
+Reading "via_M1_M2_1_n".
+=======
+Reading "XM3_origin".
+Reading "XM5_origin".
+Reading "XM1_origin".
+Reading "XM4_origin".
+Reading "XM2_origin".
+Reading "via_M1_M2_1".
+Reading "via_M1_M2_1_{".
+Reading "via_M1_M2_1_y".
+Reading "via_M1_M2_1_x".
+Reading "via_M1_M2_1_w".
+Reading "via_M1_M2_1_v".
+Reading "via_M1_M2_1_t".
+Reading "via_M1_M2_1_r".
+Reading "via_M1_M2_1_q".
+Reading "via_M1_M2_1_p".
+Reading "via_M1_M2_1_o".
+Reading "XXXXX95".
+Reading "XXXXX94".
+Reading "XXXXX93".
+Reading "XXXXX92".
+Reading "XXXXX91".
+Reading "via_M1_M2_1_}".
+Reading "via_M1_M2_1_~".
+Reading "XXXXX88".
+Reading "XXXXX87".
+Reading "XXXXX86".
+Reading "via_M1_M2_1_j".
+Reading "via_M1_M2_1_h".
+Reading "via_M1_M2_1_m".
+Reading "via_M1_M2_1_k".
+Reading "via_M1_M2_1_i".
+Reading "via_M1_M2_1_a".
+Reading "via_M1_M2_1_c".
+Reading "via_M1_M2_1_b".
+Reading "via_M1_M2_1_d".
+Reading "via_M1_M2_1_f".
+Reading "XM3".
+Reading "via_M1_M2_1_s".
+Reading "via_M1_M2_1_u".
+Reading "via_M1_M2_1_z".
+Reading "via_M1_M2_1_|".
+Reading "XXXXX69".
+Reading "XXXXX68".
+Reading "XM5".
+Reading "XXXXX65".
+Reading "XXXXX64".
+Reading "via_M1_M2_1_n".
+Reading "via_M1_M2_1_l".
+Reading "via_M1_M2_1_e".
+Reading "via_M1_M2_1_g".
+Reading "XM1".
+Reading "XXXXX57".
+Reading "XXXXX56".
+Reading "XM4".
+Reading "XXXXX53".
+Reading "XXXXX52".
+Reading "XXXXX51".
+Reading "XXXXX50".
+Reading "XXXXX49".
+Reading "XXXXX48".
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+Reading "XXXXX47".
+Reading "XXXXX46".
+Reading "XXXXX45".
+Reading "XXXXX44".
+Reading "XXXXX43".
+Reading "XXXXX42".
+Reading "XXXXX41".
+Reading "XXXXX40".
+<<<<<<< HEAD
+Reading "via_M3_M4_0".
+Reading "XM1".
+Reading "via_M1_M2_1_a".
+Reading "via_M1_M2_1_c".
+Reading "via_M1_M2_1_e".
+Reading "via_M1_M2_1_g".
+Reading "XXXXX32".
+Reading "XXXXX31".
+Reading "XXXXX30".
+Reading "XXXXX29".
+Reading "XXXXX28".
+Reading "XM2".
+Reading "via_M1_M2_1_q".
+Reading "via_M1_M2_1_s".
+Reading "via_M1_M2_1_u".
+Reading "via_M1_M2_1_x".
+Reading "via_M1_M2_1_z".
+Reading "via_M1_M2_1_|".
+=======
+Reading "XXXXX39".
+Reading "XXXXX38".
+Reading "XXXXX37".
+Reading "XXXXX36".
+Reading "XXXXX35".
+Reading "XXXXX34".
+Reading "XXXXX33".
+Reading "XXXXX32".
+Reading "XXXXX31".
+Reading "XM2".
+Reading "via_M2_M3_0".
+Reading "XXXXX26".
+Reading "XXXXX25".
+Reading "XXXXX24".
+Reading "XXXXX23".
+Reading "XXXXX22".
+Reading "XXXXX21".
+Reading "XXXXX20".
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+Reading "XXXXX19".
+Reading "XXXXX18".
+Reading "XXXXX17".
+Reading "XXXXX16".
+Reading "XXXXX15".
+Reading "XXXXX14".
+<<<<<<< HEAD
+Reading "XM6".
+Reading "XXXXX11".
+Reading "XXXXX10".
+Reading "XXXXX9".
+Reading "via_M2_M3_0".
+Reading "XM4".
+Reading "XXXXX4".
+Reading "XXXXX3".
+Reading "XXXXX2".
+Reading "hyscomp".
+=======
+Reading "XXXXX13".
+Reading "XXXXX12".
+Reading "XXXXX11".
+Reading "XXXXX10".
+Reading "XXXXX9".
+Reading "XXXXX8".
+Reading "XXXXX7".
+Reading "XXXXX6".
+Reading "XXXXX5".
+Reading "XXXXX4".
+Reading "XXXXX3".
+Reading "XXXXX2".
+Reading "diff2sin".
+>>>>>>> 1b3ffd5233fe3cf4f9dce3a5929071481894e295
+
+DRC START
+Loading DRC CIF style.
+Total DRC errors found: 0
+There are no errors in diff2sin.
+DRC FINISH!!
