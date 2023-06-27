@@ -89,3 +89,8 @@ Resolution（変数名:bit）をパラメータとした．
 ![diff_sin_position](png/diff_sin_position.png)
 
 ![diff_sin_layout](png/diff_sin_layout.png)
+
+
+License
+=
+A2G is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE.txt) file for details.
