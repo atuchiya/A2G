@@ -33,6 +33,7 @@ OpenMPW6に提出するGDSを楽して設計するために，
 ## 設定
 - ./scripts/setting.pyをいじるといろいろ変わる
 - CELLNAMEでネットリスト名＝subサーキット名を設定
+- POSITION_PLAN でおおまかな配置を指定
 - ネットリストを./netlist下に入れる
 
 
