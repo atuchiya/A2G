@@ -1,0 +1,115 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1686266346
+<< checkpaint >>
+rect -2135 -1799 2135 1799
+<< metal2 >>
+rect -680 380 680 444
+rect -740 -32 740 32
+rect -622 -432 622 -368
+use via_M1_M2_1  NoName_26 ~/A2G/A2G/magic/magic_layout/skywater130_microtemplates_dense
+timestamp 1647525606
+transform 1 0 -708 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_27
+timestamp 1647525606
+transform 1 0 -472 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_28
+timestamp 1647525606
+transform 1 0 -236 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_29
+timestamp 1647525606
+transform 1 0 0 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_30
+timestamp 1647525606
+transform 1 0 236 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_31
+timestamp 1647525606
+transform 1 0 472 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_32
+timestamp 1647525606
+transform 1 0 708 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_33
+timestamp 1647525606
+transform 1 0 -590 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_34
+timestamp 1647525606
+transform 1 0 -354 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_35
+timestamp 1647525606
+transform 1 0 -118 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_36
+timestamp 1647525606
+transform 1 0 118 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_37
+timestamp 1647525606
+transform 1 0 354 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_38
+timestamp 1647525606
+transform 1 0 590 0 1 -400
+box -32 -32 32 32
+use via_M1_M2_1  NoName_39
+timestamp 1647525606
+transform 1 0 -648 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_40
+timestamp 1647525606
+transform 1 0 -530 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_41
+timestamp 1647525606
+transform 1 0 -412 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_42
+timestamp 1647525606
+transform 1 0 -294 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_43
+timestamp 1647525606
+transform 1 0 -176 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_44
+timestamp 1647525606
+transform 1 0 -58 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_45
+timestamp 1647525606
+transform 1 0 58 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_46
+timestamp 1647525606
+transform 1 0 176 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_47
+timestamp 1647525606
+transform 1 0 294 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_48
+timestamp 1647525606
+transform 1 0 412 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_49
+timestamp 1647525606
+transform 1 0 530 0 1 412
+box -32 -32 32 32
+use via_M1_M2_1  NoName_50
+timestamp 1647525606
+transform 1 0 648 0 1 412
+box -32 -32 32 32
+use XMinn_origin  XMinn
+timestamp 1686266346
+transform 1 0 0 0 1 0
+box -875 -539 875 539
+<< end >>

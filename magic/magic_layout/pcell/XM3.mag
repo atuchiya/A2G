@@ -1,0 +1,83 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1686266349
+<< checkpaint >>
+rect -1899 -1624 1899 1624
+<< metal2 >>
+rect -444 180 444 244
+rect -504 -32 504 32
+rect -386 -232 386 -168
+use via_M1_M2_1  NoName_126 ~/A2G/A2G/magic/magic_layout/skywater130_microtemplates_dense
+timestamp 1647525606
+transform 1 0 -472 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_127
+timestamp 1647525606
+transform 1 0 -236 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_128
+timestamp 1647525606
+transform 1 0 0 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_129
+timestamp 1647525606
+transform 1 0 236 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_130
+timestamp 1647525606
+transform 1 0 472 0 1 0
+box -32 -32 32 32
+use via_M1_M2_1  NoName_131
+timestamp 1647525606
+transform 1 0 -354 0 1 -200
+box -32 -32 32 32
+use via_M1_M2_1  NoName_132
+timestamp 1647525606
+transform 1 0 -118 0 1 -200
+box -32 -32 32 32
+use via_M1_M2_1  NoName_133
+timestamp 1647525606
+transform 1 0 118 0 1 -200
+box -32 -32 32 32
+use via_M1_M2_1  NoName_134
+timestamp 1647525606
+transform 1 0 354 0 1 -200
+box -32 -32 32 32
+use via_M1_M2_1  NoName_135
+timestamp 1647525606
+transform 1 0 -412 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_136
+timestamp 1647525606
+transform 1 0 -294 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_137
+timestamp 1647525606
+transform 1 0 -176 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_138
+timestamp 1647525606
+transform 1 0 -58 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_139
+timestamp 1647525606
+transform 1 0 58 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_140
+timestamp 1647525606
+transform 1 0 176 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_141
+timestamp 1647525606
+transform 1 0 294 0 1 212
+box -32 -32 32 32
+use via_M1_M2_1  NoName_142
+timestamp 1647525606
+transform 1 0 412 0 1 212
+box -32 -32 32 32
+use XM3_origin  XM3
+timestamp 1686266348
+transform 1 0 0 0 1 0
+box -639 -364 639 364
+<< end >>

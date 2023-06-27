@@ -1,0 +1,19 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1679988684
+<< checkpaint >>
+rect -1518 -2321 1518 2321
+use via_M1_M2_1  NoName_201 ~/A2G/MAGIC/magic_layout/skywater130_microtemplates_dense
+timestamp 1647525606
+transform 1 0 0 0 1 852
+box -32 -32 32 32
+use via_M1_M2_1  NoName_202
+timestamp 1647525606
+transform 1 0 0 0 1 -852
+box -32 -32 32 32
+use XR2_origin  XR2
+timestamp 1679988684
+transform 1 0 0 0 1 0
+box -258 -1061 258 1061
+<< end >>
