@@ -1,0 +1,3 @@
+ProjectName
+RectangleName1 -40.0 240.0 160.0 340.0
+RectangleName2 340.0 240.0 740.0 440.0

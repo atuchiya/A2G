@@ -1,0 +1,189 @@
+* NGSPICE file created from diff2sin.ext - technology: sky130A
+
+.subckt XM1_origin G D S a_n1155_n493#
+X0 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=8.12e+12p pd=6.064e+07u as=9.135e+12p ps=6.822e+07u w=3.5e+06u l=350000u
+X1 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X2 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X3 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X4 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X5 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X6 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X7 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X8 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X9 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X10 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X11 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X12 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X13 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X14 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X15 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+.ends
+
+.subckt XM1 XM1/S XM1/G XM1/D VSUBS
+XXM1 XM1/G XM1/D XM1/S VSUBS XM1_origin
+.ends
+
+.subckt XM2_origin G D S w_n2727_n534#
+X0 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=2.03e+13p pd=1.516e+08u as=2.1315e+13p ps=1.5918e+08u w=3.5e+06u l=350000u
+X1 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X2 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X3 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X4 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X5 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X6 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X7 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X8 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X9 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X10 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X11 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X12 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X13 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X14 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X15 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X16 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X17 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X18 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X19 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X20 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X21 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X22 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X23 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X24 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X25 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X26 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X27 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X28 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X29 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X30 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X31 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X32 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X33 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X34 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X35 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X36 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X37 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X38 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X39 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+.ends
+
+.subckt XM2 XM2/w_n2727_n534# XM2/S XM2/G XM2/D
+XXM2 XM2/G XM2/D XM2/S XM2/w_n2727_n534# XM2_origin
+.ends
+
+.subckt XM3_origin G D S a_n1155_n493#
+X0 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=8.12e+12p pd=6.064e+07u as=9.135e+12p ps=6.822e+07u w=3.5e+06u l=350000u
+X1 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X2 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X3 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X4 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X5 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X6 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X7 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X8 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X9 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X10 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X11 S G D a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X12 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X13 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X14 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X15 D G S a_n1155_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+.ends
+
+.subckt XM3 XM3/D XM3/S XM3/G VSUBS
+XXM3 XM3/G XM3/D XM3/S VSUBS XM3_origin
+.ends
+
+.subckt XM4_origin G D S w_n2727_n534#
+X0 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=2.03e+13p pd=1.516e+08u as=2.1315e+13p ps=1.5918e+08u w=3.5e+06u l=350000u
+X1 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X2 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X3 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X4 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X5 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X6 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X7 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X8 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X9 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X10 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X11 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X12 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X13 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X14 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X15 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X16 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X17 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X18 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X19 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X20 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X21 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X22 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X23 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X24 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X25 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X26 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X27 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X28 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X29 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X30 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X31 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X32 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X33 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X34 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X35 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X36 D G S w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X37 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X38 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X39 S G D w_n2727_n534# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+.ends
+
+.subckt XM4 XM4/S XM4/G XM4/D XM4/w_n2727_n534#
+XXM4 XM4/G XM4/D XM4/S XM4/w_n2727_n534# XM4_origin
+.ends
+
+.subckt XM5_origin G D S a_n2179_n493#
+X0 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=1.624e+13p pd=1.2128e+08u as=1.7255e+13p ps=1.2886e+08u w=3.5e+06u l=350000u
+X1 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X2 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X3 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X4 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X5 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X6 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X7 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X8 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X9 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X10 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X11 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X12 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X13 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X14 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X15 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X16 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X17 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X18 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X19 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X20 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X21 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X22 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X23 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X24 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X25 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X26 S G D a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X27 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X28 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X29 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X30 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+X31 D G S a_n2179_n493# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3.5e+06u l=350000u
+.ends
+
+.subckt XM5 XM5/G XM5/D XM5/S VSUBS
+XXM5 XM5/G XM5/D XM5/S VSUBS XM5_origin
+.ends
+
+.subckt diff2sin out ia ib icmbias vdd vss
+XXM1 XM5/XM5/D ia XM4/XM4/G vss XM1
+XXM2 vdd vdd XM4/XM4/G XM4/XM4/G XM2
+XXM3 out XM5/XM5/D ib vss XM3
+XXM4 vdd XM4/XM4/G out vdd XM4
+XXM5 icmbias XM5/XM5/D vss vss XM5
+.ends
+
