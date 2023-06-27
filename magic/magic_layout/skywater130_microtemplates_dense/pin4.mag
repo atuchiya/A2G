@@ -1,0 +1,10 @@
+magic
+tech sky130A
+timestamp 1680007232
+<< error_p >>
+rect -5 5 5 25
+rect -5 -5 25 5
+<< metal4 >>
+rect -5 -5 5 5
+<< labels >>
+<< end >>
